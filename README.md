@@ -18,5 +18,3 @@
 
 - In the frontend folder, install packages: `npm install`
 - To run: `npm run dev`
-- In the backend folder, install packages: `npm install`
-- To run: `bin/rails server`
