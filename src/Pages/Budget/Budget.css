@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+:root {
+	--vs-primary: 29 92 255;
+}
+
+.budget-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 70px;
+    margin-top: 4%;
+    width: 80%;
+}
+
+.budget-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.budget-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+}
+
+.transaction-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 15px;
+    width: 80%;
+    min-width: 300px;
+    padding-bottom: 10%;
+}
+
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    width: 100%;
+}
+
+/*add button*/
+
+.transaction-add-button {
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.8em 2.2em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+   
+.transaction-add-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5cb4f7;
+    color: black;
+}
+   
+.transaction-add-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+   
+.transaction-add-button::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+   
+.transaction-add-button::after {
+    background-color: white;
+    border-color: #5cb4f7;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    width: 100%;
+}
+
+
+.input {
+    height: 25px;
+    max-width: 150px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+  
+.icon {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    fill: rgb(98, 0, 255);
+    border: 1px solid rgb(98, 0, 255);
+}
+
+
+
+.mobile-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+

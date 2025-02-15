@@ -1,0 +1,17 @@
+.side-nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-nav-item {
+    color: black;
+}
+
+.side-nav-item:hover {
+    background-color: rgb(179, 209, 244);
+    cursor: pointer;
+    border-radius: 10px;
+}

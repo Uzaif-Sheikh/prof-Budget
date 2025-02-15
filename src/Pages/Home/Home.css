@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair:wght@300&display=swap');
+
+.landing-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.landingpage-title-container {
+  text-align: center;
+  color: #3c56d8;
+  background: linear-gradient(to right,#2c88f2, #023a7f);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 2.2vw;
+  font-family: 'Playfair', serif;
+  padding: 10px;
+  border: solid;
+  border-width: 1px;
+
+}
+
+.landingpage-card {
+  width: 290px;
+  border-radius: 1rem;
+  background-image: linear-gradient(43deg, #4159d06f 0%, #1d94de6d 46%, #3c56d877 100%);
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.landingpage-title-button-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  font-family: sans-serif, serif;
+  border-right: solid;
+  border-width: 1px;
+}
+
+.landingpage-intro {
+
+  text-align: center;
+  color: #000000;
+  font-size: 1.3vw;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 15px;
+  margin: 10px;
+
+}
+
+
+.landingpage-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 6vw;
+  width: 100%;
+}
+
+.landing-page-button {
+  width: 200px !important;
+  display: flex;
+  height: 3em;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+  padding: 5px;
+  background-image: linear-gradient(144deg,#3c56d8 30%, rgb(62, 60, 60));
+}
+
+.landing-page-button:hover {
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+  transform: translateY(-2px);
+  background-color: rgb(62, 60, 60);
+  color: white;
+}
+
+
+
+

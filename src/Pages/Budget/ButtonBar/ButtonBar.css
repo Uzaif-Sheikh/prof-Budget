@@ -1,0 +1,45 @@
+
+.add-filter-search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    column-gap: 10%;
+    width: 100%;
+}
+
+.button-bar-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+}
+
+.search-input {
+    background-color: white;
+}
+
+.search-icon {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .search-input {
+        display: none;
+    }
+
+    .search-icon {
+        display: inline;
+    }
+}
+

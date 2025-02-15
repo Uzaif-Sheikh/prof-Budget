@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.reminder-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.reminder-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.reminder-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 9px 9px 33px #9b9a9a, -9px -9px 33px #908f8f;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.reminder-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-shadow: 9px 9px 33px #939394, -9px -9px 33px #959595;
+    width: 45%;
+    height: 80%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.date-reminder {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.error {
+    display: flex;
+    font-size: small;
+    font-weight: 400;
+    color: rgb(235, 99, 99);
+}
+
+.reminder-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    width: 100%;
+}
+
+.reminder-title {
+    font-family: 'Gloock', serif;
+    color: #043168;
+    font-size: 30px;
+}
+
+.reminder-button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #26cee1 30%, #043168);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 1px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.reminder-button:active,
+.reminder-button:hover {
+    outline: 0;
+}
+
+.reminder-button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 25%;
+    transition: 300ms;
+}
+
+.reminder-button:hover span {
+    background: none;
+}
+
+.reminder-button:active {
+    transform: scale(0.9);
+}
+
+.image-container {
+    background-image: linear-gradient(144deg, #26cee1 30%, #043168);
+    height: 100%;
+    width: 10%;
+}
+
+
+.card {
+    width: 25%;
+    border-radius: 5px;
+    background: #ffffff;
+    position: relative;
+    padding: 0.2rem;
+    border: 2px solid #818285e9;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-details {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+p {
+    width: auto;
+    height: auto;
+}
+
+.text-body {
+    color: rgb(107, 106, 106);
+    margin: 8px;
+}
+
+/*Text*/
+.text-title {
+    font-weight: bold;
+    margin: 20px;
+    color: #043168;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Hover*/
+.card:hover {
+    border-color: #043168;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time-info {
+    display: flex;
+    justify-content: center;
+}
+
+.up-reminder {
+    color: #043168;
+    margin-top: 60px;
+}
+
+.reminder-card-btn {
+    width: 30px;
+    height: 30px;
+    background: #ffff;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+.app-bar {
+    padding: 6px;
+    background-color: white;
+}
+    
+/*
+background-color: #27282D;
+*/
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-contains {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    column-gap: 20px;
+    font-family: 'Gloock', serif;
+    font-size: 33px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(to right,#2c88f2, #023a7f);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+/*#f79d5c*/
+
+.header-contains-2 {
+    font-family: 'Gloock', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    column-gap: 20px;
+    color: #043168;
+    font-size: 17px;
+}
+
+.links-btn {
+    margin: 4px;
+    padding: 2px;
+    color: #043168;
+}
+
+.user-profile {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.logout-button {
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    background-image: linear-gradient(to right, #5cb4f7, #043168);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    padding: 1px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+}
+   
+.logout-button:active,
+.logout-button:hover {
+    outline: 0;
+}
+   
+.logout-button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 25%;
+    transition: 300ms;
+}
+   
+.logout-button:hover span {
+    background: none;
+}
+   
+.logout-button:active {
+    transform: scale(0.9);
+}

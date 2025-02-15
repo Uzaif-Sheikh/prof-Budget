@@ -1,0 +1,9 @@
+
+body {
+    /*background-color: #1c2122;*/
+    overflow: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    color: rgb(56, 55, 55);
+}
